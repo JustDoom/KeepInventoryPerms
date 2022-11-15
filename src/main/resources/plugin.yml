@@ -1,0 +1,11 @@
+name: KeepInventoryPerms
+version: '${project.version}'
+main: com.imjustdoom.keepinventoryperms.KeepInventoryPerms
+api-version: 1.13
+authors: [ JustDoom ]
+description: Adds a permission to allow players to keep their inventory on death
+website: https://imjustdoom.com
+permissions:
+    keepinventoryperms.keepinventory:
+        description: Allows the player to keep their inventory on death
+        default: op
